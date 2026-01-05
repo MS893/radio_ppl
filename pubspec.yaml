@@ -1,0 +1,38 @@
+#file: noinspection SpellCheckingInspection
+name: radio_ppl
+description: "Application d'entraînement à la radio pour les élèves PPL"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  audioplayers: ^6.0.0
+  card_swiper: ^3.0.1
+  flutter_tts: ^4.2.3
+  gap: ^3.0.1
+  google_fonts: ^6.2.1
+  lottie: ^3.1.3
+  package_info_plus: ^8.1.1
+  speech_to_text: ^7.3.0
+  url_launcher: ^6.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - res/images/
+    - res/lottie/
